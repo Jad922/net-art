@@ -1,0 +1,78 @@
+body
+{
+  background-image: url(https://www.wallart.com/media/catalog/product/cache/871f459736130e239a3f5e6472128962/w/0/w04826-small.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ 
+}
+
+h1
+{
+  position:absolute;
+  font-size: 500%;
+  color: #33FFFF;
+  left:30%;
+  top:5%;
+}
+
+img
+{
+  position: absolute;
+  bottom: 5%;
+  left: 40%;
+  height: 1%
+  
+}
+
+
+.monkey
+{
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+  height: 5%;
+  background-color: #33FF57;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    height: 100vh;                         
+    width: 100%;   
+                           
+}
+
+.grid-item {
+  transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+
+.grid-item:hover {
+  transform: scale(1.1) rotate(15deg);
+  background-color: #888888;
+}
+
+.button1 { background-color: #FF5733;
+           position: relative; } 
+.button2 { background-color: #33FF57; 
+           position: relative;}
+.button3 { background-color: #3357FF; 
+           position: relative;} 
+.button4 { background-color: #FFFF33;
+           position: relative; } 
+.button5 { background-color: #FF33FF;
+           position: relative; } 
+.button6 { background-color: #33FFFF;
+           position: relative; } 
+.button7 { background-color: #FFA500;
+           position: relative; } 
+.button8 { background-color: #800080;
+           position: relative; } 
+.button9 { background-color: #FFD700;
+           position: relative; }
+
+
