@@ -1,0 +1,94 @@
+h1
+{
+    color: red;
+    text-align: center;
+    font-size: 8em;
+}
+h2
+{
+    font-size: 3em;
+}
+
+h3
+{
+    font-size: 2em;
+}
+p
+{
+    font-size: 2px;
+}
+
+a
+{
+    font-size: 1em;
+}
+
+body
+{
+    background-color: black;
+    color:white;
+    text-align: center;
+    background-image: url('cover.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.dead
+{
+    margin-left: 3%;
+    float: left;
+    font-size: 1em;
+}
+.title
+{
+    margin-top: 5%;
+    margin-left: 20%;
+    float: left;
+}
+
+.mid
+{
+   
+    margin-top: 10%;
+    
+    
+    margin-left: 10%;
+    height:100%;
+    width:50%;
+    text-align: center;
+    float: left;
+    position: fixed;
+    /*background-image: url('ironmanface.jpg');*/
+    background-repeat: no-repeat;
+}
+
+.left
+{
+    height: 100%;
+    width: 25%;
+    /*background-image: url('Tony_Stark.webp');*/
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    
+    float:left;
+    
+    position: fixed;
+}
+
+.right
+{
+    height: 100%;
+    width: 25%;
+    background-image: url('ironman.jpg');
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    margin-right: 0%;
+    margin-left: 74.3%;
+    float:right;
+    position: fixed;
+    
+}
