@@ -45,7 +45,8 @@ body
 {
    margin: 0%;
    font-size: 1em;
-  
+   font-family:'Times New Roman', Times, serif;
+   background-color: black;
 }
 
 
@@ -84,8 +85,8 @@ body
     
     background-image: url('page0img.webp');
     background-size: cover;
-    height:130%;
-    width:130%;
+    height:100%;
+    width:100%;
     text-align: center;
     font-size: 1.3em;
     position: fixed;
@@ -194,15 +195,16 @@ body
 .text5
 {
     margin-top: 0%;
-    margin-left: 70%;
+    margin-left: 65%;
     color: white;
-    font-size: .75em;
+    font-size: .65em;
     height:fit-content;
     width:fit-content;
     text-align: center;
     float: left;
     position: fixed;
     text-shadow: 2px 2px black;
+    max-width: 30%;
 }
 
 .page6
@@ -221,13 +223,14 @@ body
     margin-top: 4%;
     margin-left: 63%;
     color: white;
-    font-size: 1em;
+    font-size: .85em;
     height:fit-content;
     width:fit-content;
     text-align: center;
     float: left;
     position: fixed;
     text-shadow: 2px 2px black;
+    max-width: 37%;
 }
 
 .page7
@@ -246,7 +249,7 @@ body
     margin-top: 4%;
     margin-left: 1%;
     color: red;
-    font-size: 1.5em;
+    font-size: 1.2em;
     height:fit-content;
     width:fit-content;
     text-align: center;
@@ -283,58 +286,95 @@ body
 
 @media screen and (max-width: 992px)
 {
+    .index
+    {
+        background-size: contain;
+        background-position: center;
+    }
+
     .title
     {
         max-width: 50%;
-        font-size: .75em;
+        font-size: .5em;
+        margin-left: 5%;
     }
+
+
+
+    
+    
 
     .text0
     {
         max-width: 50%;
-        font-size: .75em;
+        font-size: .65em;
     }
-
+    .page1
+    {
+        background-size: contain;
+        background-position: center;
+    }
     .text1
     {
         max-width: 50%;
         font-size: .75em;
+        margin-top: 15%;
+        margin-left: 25%;
     }
 
     .text2
     {
         max-width: 50%;
-        font-size: .75em;
+        font-size: 1.5em;
     }
 
+    .page4
+    {
+        background-size: contain;
+        background-position: center;
+    }
     .text4
     {
         max-width: 50%;
         font-size: .75em;
+        margin-left: 25%;
+        margin-top: 1%;
     }
 
     .text5
     {
         max-width: 50%;
-        font-size: .75em;
+        font-size: .5em;
+        margin-left: 1%;
     }
 
     .text6
     {
         max-width: 50%;
-        font-size: .75em;
+        font-size: .55em;
+        margin-left: 1%;
     }
-
+    .page7
+    {
+        background-size: contain;
+        background-position: center;
+    }
     .text7
     {
         max-width: 50%;
-        font-size: .75em;
+        font-size: .5em;
+        margin-top: 1%;
+        margin-left: 33%;
     }
-
+    .page8
+    {
+        background-size: contain;
+        background-position: center;
+    }
     .text8
     {
         max-width: 50%;
-        font-size: .75em;
+        font-size: .55em;
     }
 }
 
@@ -343,37 +383,55 @@ body
     .title
     {
         max-width: 40%;
-        font-size: .5em;
+        font-size: .4em;
+        margin-top: 20%;
     }
-
+    .page0
+    {
+        background-size: contain;
+        background-position: center;
+    }
     .text0
     {
-        max-width: 40%;
-        font-size: .5em;
+        max-width: 50%;
+        font-size: .35em;
+        margin-top: 60%;
+        margin-left: 25%;
     }
 
     .text1
     {
-        max-width: 40%;
-        font-size: .5em;
+        max-width: 50%;
+        font-size: .35em;
     }
-
+    .page2
+    {
+        background-size: contain;
+        background-position: center;
+    }
     .text2
     {
-        max-width: 40%;
-        font-size: .5em;
+        max-width: 50%;
+        font-size: .8em;
+        margin-left: 25%;
     }
 
     .text4
     {
-        max-width: 40%;
-        font-size: .5em;
+        max-width: 50%;
+        font-size: .6em;
     }
 
+    .page5
+    {
+        background-size: contain;
+        background-position: center;
+    }
     .text5
     {
         max-width: 40%;
-        font-size: .5em;
+        font-size: .25em;
+        margin-left: 30%;
     }
 
     .text6
@@ -384,13 +442,20 @@ body
 
     .text7
     {
-        max-width: 40%;
-       font-size: .5em;
+        max-width: 50%;
+       font-size: .45em;
+       margin-left: 25%;
     }
 
+    .page8
+    {
+        background-size: contain;
+        background-position: center;
+    }
     .text8
     {
         max-width: 40%;
-        font-size: .5em;
+        font-size: .35em;
+        margin-top: 25%;
     }
 }
