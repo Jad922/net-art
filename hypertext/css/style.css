@@ -285,55 +285,55 @@ body
 {
     .title
     {
-        max-width: 47%;
-        font-size: .5em;
+        max-width: 50%;
+        font-size: .75em;
     }
 
     .text0
     {
-        max-width: 47%;
-        font-size: .75em;
+        max-width: 50%;
+        font-size: .9em;
     }
 
     .text1
     {
-        max-width: 47%;
-        font-size: .75em;
+        max-width: 50%;
+        font-size: .9em;
     }
 
     .text2
     {
-        max-width: 47%;
-        font-size: .75em;
+        max-width: 50%;
+        font-size: 1.75em;
     }
 
     .text4
     {
-        max-width: 47%;
-        font-size: .75em;
+        max-width: 50%;
+        font-size: 1.5em;
     }
 
     .text5
     {
-        max-width: 47%;
-        font-size: .75em;
+        max-width: 50%;
+        font-size: .5em;
     }
 
     .text6
     {
-        max-width: 47%;
+        max-width: 50%;
         font-size: .75em;
     }
 
     .text7
     {
-        max-width: 47%;
-        font-size: .75em;
+        max-width: 50%;
+        font-size: 1em;
     }
 
     .text8
     {
-        max-width: 47%;
+        max-width: 50%;
         font-size: .75em;
     }
 }
@@ -342,55 +342,55 @@ body
 {
     .title
     {
-        max-width: 35%;
-        font-size: .38em;
+        max-width: 40%;
+        font-size: .5em;
     }
 
     .text0
     {
-        max-width: 35%;
-        font-size: .38em;
+        max-width: 40%;
+        font-size: .7em;
     }
 
     .text1
     {
-        max-width: 35%;
-        font-size: .38em;
+        max-width: 40%;
+        font-size: .7em;
     }
 
     .text2
     {
-        max-width: 35%;
-        font-size: .38em;
+        max-width: 40%;
+        font-size: 1.25em;
     }
 
     .text4
     {
-        max-width: 35%;
-        font-size: .38em;
+        max-width: 40%;
+        font-size: 1em;
     }
 
     .text5
     {
-        max-width: 35%;
-        font-size: .38em;
+        max-width: 40%;
+        font-size: .35em;
     }
 
     .text6
     {
-        max-width: 35%;
-        font-size: .38em;
+        max-width: 40%;
+        font-size: .5em;
     }
 
     .text7
     {
-        max-width: 35%;
-        font-size: .38em;
+        max-width: 40%;
+        font-size: .75em;
     }
 
     .text8
     {
-        max-width: 35%;
-        font-size: .38em;
+        max-width: 40%;
+        font-size: .5em;
     }
 }
