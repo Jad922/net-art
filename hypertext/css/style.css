@@ -1,0 +1,396 @@
+h1
+{
+    color: red;
+    text-align: center;
+    font-size: 8em;
+}
+h2
+{
+    font-size: 3em;
+}
+
+h3
+{
+    font-size: 2em;
+}
+a
+{
+    color: gold;
+    text-decoration:none;
+    font-size: .6em;
+}
+
+button
+{
+    background-color: red;
+    display: inline-block;
+    width: fit-content;
+    font-size: 1em;
+    border-radius: 20px;
+}
+
+button:hover {
+  transform: scale(1.1) rotate(7deg);
+  background-color: gold;
+  color: red;
+  
+}
+button:hover > a {
+  
+  color: red;
+  
+}
+
+body
+{
+   margin: 0%;
+   font-size: 1em;
+  
+}
+
+
+.dead
+{
+    margin-left: 3%;
+    float: left;
+    font-size: 1em;
+}
+.title
+{
+    
+    margin-top: 5%;
+    margin-left: 20%;
+    float: left;
+}
+
+.index
+{
+    
+    background-size: cover;
+    color:white;
+    text-align: center;
+    background-image: url('cover.jpg');
+    position:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+   
+   
+}
+
+.page0
+{
+    
+    background-image: url('page0img.webp');
+    background-size: cover;
+    height:130%;
+    width:130%;
+    text-align: center;
+    font-size: 1.3em;
+    position: fixed;
+    background-repeat: no-repeat;
+}
+.text0
+{
+    margin-top: 6%;
+    margin-left: 2%;
+    height:fit-content;
+    width:fit-content;
+    text-align: center;
+    float: left;
+    position: fixed;
+    text-shadow: 2px 2px white;
+    max-width: 50%;
+}
+
+.page1
+{
+    
+    background-image: url('page1img.webp');
+    background-size: cover;
+    height:100%;
+    width:100%;
+    text-align: center;
+    font-size: 1.2em;
+    position: fixed;
+    background-repeat: no-repeat;
+}
+.text1
+{
+    margin-top: 6%;
+    margin-left: 42%;
+    color:white;
+    font-size: 1.3em;
+    height:fit-content;
+    width:fit-content;
+    text-align: center;
+    float: left;
+    position: fixed;
+    text-shadow: 2px 2px black;
+}
+
+.page2
+{
+    
+    background-image: url('page2img.webp');
+    background-size: cover;
+    height:110%;
+    width:110%;
+    text-align: center;
+    font-size: 1.2em;
+    position: fixed;
+    background-repeat: no-repeat;
+}
+.text2
+{
+    margin-top: 1%;
+    margin-left: 1%;
+    color: white;
+    font-size: 2.5em;
+    height:fit-content;
+    width:fit-content;
+    text-align: center;
+    float: left;
+    position: fixed;
+}
+
+.page4
+{
+    
+    background-image: url('page4img.webp');
+    background-size: cover;
+    height:100%;
+    width:100%;
+    text-align: center;
+    position: fixed;
+    background-repeat: no-repeat;
+}
+.text4
+{
+    margin-top: 6%;
+    margin-left: 18%;
+    color: white;
+    font-size: 2em;
+    height:fit-content;
+    width:fit-content;
+    text-align: center;
+    float: left;
+    position: fixed;
+    text-shadow: 2px 2px black;
+}
+
+.page5
+{
+    
+    background-image: url('page5img.avif');
+    background-size: cover;
+    height:100%;
+    width:100%;
+    text-align: center;
+    position: fixed;
+    background-repeat: no-repeat;
+}
+.text5
+{
+    margin-top: 0%;
+    margin-left: 70%;
+    color: white;
+    font-size: .75em;
+    height:fit-content;
+    width:fit-content;
+    text-align: center;
+    float: left;
+    position: fixed;
+    text-shadow: 2px 2px black;
+}
+
+.page6
+{
+    
+    background-image: url('page6img.webp');
+    background-size: cover;
+    height:100%;
+    width:100%;
+    text-align: center;
+    position: fixed;
+    background-repeat: no-repeat;
+}
+.text6
+{
+    margin-top: 4%;
+    margin-left: 63%;
+    color: white;
+    font-size: 1em;
+    height:fit-content;
+    width:fit-content;
+    text-align: center;
+    float: left;
+    position: fixed;
+    text-shadow: 2px 2px black;
+}
+
+.page7
+{
+    
+    background-image: url('page7img.webp');
+    background-size: cover;
+    height:100%;
+    width:100%;
+    text-align: center;
+    position: fixed;
+    background-repeat: no-repeat;
+}
+.text7
+{
+    margin-top: 4%;
+    margin-left: 1%;
+    color: red;
+    font-size: 1.5em;
+    height:fit-content;
+    width:fit-content;
+    text-align: center;
+    float: left;
+    position: fixed;
+    text-shadow: 2px 2px white;
+}
+
+.page8
+{
+    
+    background-image: url('page8img.jpg');
+    background-size: cover;
+    height:100%;
+    width:100%;
+    text-align: center;
+    position: fixed;
+    background-repeat: no-repeat;
+}
+.text8
+{
+    margin-top: 4%;
+    margin-left: 1%;
+    color: red;
+    font-size: 1em;
+    height:fit-content;
+    width:fit-content;
+    text-align: center;
+    float: left;
+    position: fixed;
+    text-shadow: 2px 2px gold;
+}
+
+
+@media screen and (max-width: 992px)
+{
+    .title
+    {
+        max-width: 47%;
+        font-size: .5em;
+    }
+
+    .text0
+    {
+        max-width: 47%;
+        font-size: .75em;
+    }
+
+    .text1
+    {
+        max-width: 47%;
+        font-size: .75em;
+    }
+
+    .text2
+    {
+        max-width: 47%;
+        font-size: .75em;
+    }
+
+    .text4
+    {
+        max-width: 47%;
+        font-size: .75em;
+    }
+
+    .text5
+    {
+        max-width: 47%;
+        font-size: .75em;
+    }
+
+    .text6
+    {
+        max-width: 47%;
+        font-size: .75em;
+    }
+
+    .text7
+    {
+        max-width: 47%;
+        font-size: .75em;
+    }
+
+    .text8
+    {
+        max-width: 47%;
+        font-size: .75em;
+    }
+}
+
+@media screen and (max-width: 576px)
+{
+    .title
+    {
+        max-width: 35%;
+        font-size: .38em;
+    }
+
+    .text0
+    {
+        max-width: 35%;
+        font-size: .38em;
+    }
+
+    .text1
+    {
+        max-width: 35%;
+        font-size: .38em;
+    }
+
+    .text2
+    {
+        max-width: 35%;
+        font-size: .38em;
+    }
+
+    .text4
+    {
+        max-width: 35%;
+        font-size: .38em;
+    }
+
+    .text5
+    {
+        max-width: 35%;
+        font-size: .38em;
+    }
+
+    .text6
+    {
+        max-width: 35%;
+        font-size: .38em;
+    }
+
+    .text7
+    {
+        max-width: 35%;
+        font-size: .38em;
+    }
+
+    .text8
+    {
+        max-width: 35%;
+        font-size: .38em;
+    }
+}
